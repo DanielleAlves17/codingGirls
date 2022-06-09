@@ -1,0 +1,8 @@
+C:\Users\ninas\source\repos\CodeGirl\Aula03\Aula03\obj\Debug\Aula03.csproj.AssemblyReference.cache
+C:\Users\ninas\source\repos\CodeGirl\Aula03\Aula03\obj\Debug\Aula03.csproj.SuggestedBindingRedirects.cache
+C:\Users\ninas\source\repos\CodeGirl\Aula03\Aula03\obj\Debug\Aula03.csproj.CoreCompileInputs.cache
+C:\Users\ninas\source\repos\CodeGirl\Aula03\Aula03\bin\Debug\Aula03.exe.config
+C:\Users\ninas\source\repos\CodeGirl\Aula03\Aula03\bin\Debug\Aula03.exe
+C:\Users\ninas\source\repos\CodeGirl\Aula03\Aula03\bin\Debug\Aula03.pdb
+C:\Users\ninas\source\repos\CodeGirl\Aula03\Aula03\obj\Debug\Aula03.exe
+C:\Users\ninas\source\repos\CodeGirl\Aula03\Aula03\obj\Debug\Aula03.pdb
