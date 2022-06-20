@@ -1,0 +1,15 @@
+C:\Users\ninas\source\repos\CodeGirl\Aula04_exercicios\Aula04_exercicios\bin\Debug\net6.0\Aula04_exercicios.exe
+C:\Users\ninas\source\repos\CodeGirl\Aula04_exercicios\Aula04_exercicios\bin\Debug\net6.0\Aula04_exercicios.deps.json
+C:\Users\ninas\source\repos\CodeGirl\Aula04_exercicios\Aula04_exercicios\bin\Debug\net6.0\Aula04_exercicios.runtimeconfig.json
+C:\Users\ninas\source\repos\CodeGirl\Aula04_exercicios\Aula04_exercicios\bin\Debug\net6.0\Aula04_exercicios.dll
+C:\Users\ninas\source\repos\CodeGirl\Aula04_exercicios\Aula04_exercicios\bin\Debug\net6.0\Aula04_exercicios.pdb
+C:\Users\ninas\source\repos\CodeGirl\Aula04_exercicios\Aula04_exercicios\obj\Debug\net6.0\Aula04_exercicios.csproj.AssemblyReference.cache
+C:\Users\ninas\source\repos\CodeGirl\Aula04_exercicios\Aula04_exercicios\obj\Debug\net6.0\Aula04_exercicios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ninas\source\repos\CodeGirl\Aula04_exercicios\Aula04_exercicios\obj\Debug\net6.0\Aula04_exercicios.AssemblyInfoInputs.cache
+C:\Users\ninas\source\repos\CodeGirl\Aula04_exercicios\Aula04_exercicios\obj\Debug\net6.0\Aula04_exercicios.AssemblyInfo.cs
+C:\Users\ninas\source\repos\CodeGirl\Aula04_exercicios\Aula04_exercicios\obj\Debug\net6.0\Aula04_exercicios.csproj.CoreCompileInputs.cache
+C:\Users\ninas\source\repos\CodeGirl\Aula04_exercicios\Aula04_exercicios\obj\Debug\net6.0\Aula04_exercicios.dll
+C:\Users\ninas\source\repos\CodeGirl\Aula04_exercicios\Aula04_exercicios\obj\Debug\net6.0\refint\Aula04_exercicios.dll
+C:\Users\ninas\source\repos\CodeGirl\Aula04_exercicios\Aula04_exercicios\obj\Debug\net6.0\Aula04_exercicios.pdb
+C:\Users\ninas\source\repos\CodeGirl\Aula04_exercicios\Aula04_exercicios\obj\Debug\net6.0\Aula04_exercicios.genruntimeconfig.cache
+C:\Users\ninas\source\repos\CodeGirl\Aula04_exercicios\Aula04_exercicios\obj\Debug\net6.0\ref\Aula04_exercicios.dll
