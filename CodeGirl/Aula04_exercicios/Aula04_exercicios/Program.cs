@@ -158,28 +158,27 @@ for (int i = 0; i < nImpar; i++)
 //3. Crie um programa que lê 5 palavras e as ordena em um vetor de strings pelo seu
 //tamanho. Se o tamanho das strings for igual, deve-se manter a ordem inserida pelo usuário.
 
-//Console.WriteLine("Digite 5 palavras: ");
-//string[] words = new string[5];
-//string words2;
-//string palavras;
-//for(int i = 0; i < words.Length; i++)
-//{
-//    words2 = (Console.ReadLine());
-//    if (words2.Length == words2.Length)
-//    {
-//        words[i] = words2;
 
-//    }
+Console.WriteLine("Digite 5 palavras: ");
+string[] words = new string[5];
 
 
+for (int i = 0; i < words.Length; i++)
+{
+    Console.WriteLine($"Digite a {i + 1}ª palavra");
+    words[i] = Console.ReadLine();
 
-//}
-//    Console.WriteLine(words[0]);
-//Console.WriteLine(words[1]);
+    
+}
+IEnumerable<string> palavrasOrdem = from palavra in words
+                                      orderby palavra.Length
+                                      select palavra;
 
-//string characters = "abc\u0000def";
-//Console.WriteLine(characters.Length);
-
+Console.WriteLine("Palavras por ordem crescente: ");
+foreach (string words2 in palavrasOrdem)
+{
+    Console.WriteLine(words2);
+}
 
 
 //4. Jogo Jokenpô
