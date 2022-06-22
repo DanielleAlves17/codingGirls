@@ -158,7 +158,26 @@ for (int i = 0; i < nImpar; i++)
 //3. Crie um programa que lê 5 palavras e as ordena em um vetor de strings pelo seu
 //tamanho. Se o tamanho das strings for igual, deve-se manter a ordem inserida pelo usuário.
 
+//Dessa forma eu consigo explicar o que fiz. 
 
+        Console.WriteLine("Digite 5 palavras: ");
+            string[] word = new string[5];
+
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"Digite a {i + 1}ª palavra");
+                word[i] = Console.ReadLine();
+                List<string> lista = word.ToList();
+                lista.Sort();
+
+                foreach (string element in lista)
+                {
+                    Console.WriteLine("Essa é a nova ordem: " + element);
+                }
+            }
+
+/*Aqui está sendo usado a solução geral que fizemos
 Console.WriteLine("Digite 5 palavras: ");
 string[] words = new string[5];
 
@@ -179,7 +198,7 @@ foreach (string words2 in palavrasOrdem)
 {
     Console.WriteLine(words2);
 }
-
+*/
 
 //4. Jogo Jokenpô
 //Utilizando os conceitos aprendidos até estruturas de repetição, crie um programa que jogue
