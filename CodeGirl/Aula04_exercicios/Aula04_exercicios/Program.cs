@@ -68,97 +68,13 @@ for (int i = 0; i < nPar; i++)
 for (int i = 0; i < nImpar; i++)
     Console.WriteLine("Os numeros impares são: " + Impar[i]);
 
-//+++++++++++++++++++++++++++++++++++++++++++++++++++++++
-//Outra forma de resolver
 
-
-//int[] par, impar;
-//impar = new int[10];
-//par = new int[10];
-
-//int entrada;
-//int indexPar = 0;
-//int indexImpar = 0;
-
-//Console.WriteLine("Entre com 10 números");
-//for (int i = 0; i < 10; i++)
-//{
-//    Console.WriteLine($"Entre o {i + 1}º número");
-//    entrada = Convert.ToInt16(Console.ReadLine());
-//    if (entrada % 2 == 0)
-//    {
-//        par[indexPar] = entrada;
-//        indexPar++;
-//    }
-//    else
-//    {
-//        impar[indexImpar] = entrada;
-//        indexImpar++;
-//    }
-//}
-//int count = 0;
-//while (count < indexPar)
-//{
-
-
-//    if (count == 0)
-//    {
-//        Console.Write($"Números pares: {par[count]}, ");
-//    }
-//    else if (count == indexPar - 1)
-//    {
-//        Console.WriteLine($"e {par[count]}. ");
-//    }
-//    else
-//    {
-//        Console.Write($"{par[count]}, ");
-//    }
-
-//    count++;
-//}
-//count = 0;
-//while (count < indexImpar)
-//{
-//    if (count == 0)
-//    {
-//        Console.Write($"Números ímpares: {impar[count]}, ");
-//    }
-//    else if (count == indexImpar - 1)
-//    {
-//        Console.WriteLine($"e {impar[count]}. ");
-
-//    }
-//    else
-//    {
-//        Console.Write($"{impar[count]}, ");
-//    }
-//    count++;
-//}
-//______________________________________________________________________
-//int[] valores = new int[10];
-//decimal soma = 0;
-
-//for (int i = 0; i < 10; i++)
-//{
-//    Console.WriteLine("Informe o elemento de índice {0}:", i);
-//    valores[i] = Convert.ToInt32(Console.ReadLine());
-//    soma += valores[i];
-//}
-
-//decimal media = soma / 10;
-
-//for (int i = 0; i < 10; i++)
-//{
-//    if (valores[i] < 5)
-//        Console.WriteLine("O elemento de índice {0}, cujo valor é {1}, é menor que 5.", i, valores[i]);
-//}
-//________________________________________________________________
 
 
 //3. Crie um programa que lê 5 palavras e as ordena em um vetor de strings pelo seu
 //tamanho. Se o tamanho das strings for igual, deve-se manter a ordem inserida pelo usuário.
 
-//Dessa forma eu consigo explicar o que fiz. 
+
 
         Console.WriteLine("Digite 5 palavras: ");
             string[] word = new string[5];
@@ -177,28 +93,6 @@ for (int i = 0; i < nImpar; i++)
                 }
             }
 
-/*Aqui está sendo usado a solução geral que fizemos
-Console.WriteLine("Digite 5 palavras: ");
-string[] words = new string[5];
-
-
-for (int i = 0; i < words.Length; i++)
-{
-    Console.WriteLine($"Digite a {i + 1}ª palavra");
-    words[i] = Console.ReadLine();
-
-    
-}
-IEnumerable<string> palavrasOrdem = from palavra in words
-                                      orderby palavra.Length
-                                      select palavra;
-
-Console.WriteLine("Palavras por ordem crescente: ");
-foreach (string words2 in palavrasOrdem)
-{
-    Console.WriteLine(words2);
-}
-*/
 
 //4. Jogo Jokenpô
 //Utilizando os conceitos aprendidos até estruturas de repetição, crie um programa que jogue
