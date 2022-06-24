@@ -6,69 +6,7 @@ namespace Aula_06
     {
         static void Main(string[] args)
         {
-            /*criar um programa para ler 3 numeros e mostrar para o usuario qual é o maior numero
-
-            Console.WriteLine("Digite três números: ");
-
-            int n1,n2, n3;
-            n1 = int.Parse(Console.ReadLine());
-            n2 = int.Parse(Console.ReadLine());
-            n3 = int.Parse(Console.ReadLine());
-
-            int resultado = Maior(n1,n2,n3);
-
-            Console.WriteLine("Maior = " +resultado);
-
-
-        }
-
-        //criar uma função
-        // static vamos iniciar com static seguindo o Main
-        // para manter a comunicação
-        // int nesse caso representa a saída da função
-        //Maior = nome da função
-        //() qnd estão vazios representam que a função não receberá parametros para executar
-        static int Maior(int n1,int n2, int n3)
-        {
-            int maiorNumero;
-            
-            if (n1 > n2 && n1 > n3)
-            {
-                maiorNumero = n1;
-            }
-            else if (n2 > n3)
-            {
-                maiorNumero=n2;
-            }
-            else
-            {
-                maiorNumero = n3;
-            }
-         
-            return maiorNumero;*/
-
-
-
-
-            // representação do mundo real
-            //classe /objeot= fisico / abstrato
-            // POO = Programação Orientada ao Objeto
-
-            //Uma classe possui:
-
-            //propriedade(atributos) / caracteristicas;
-            //métodos(funções)
-            // eventos ( o que é feito durante uma ação)
-
-
-            /* 4 pilares de OO
-             * Encapsulamento - agrupar o que faz sentido estar junto
-             * Abstração - esconder os detalhes ( eu aprendi que era tornar mais simples o complexo)
-             * Polimorfismo - um metodo pode ser executado de formas diferentes
-             * Herança - capacidade de um objeto herdar, propriedade de outro objeto
-             *   */
-
-
+           
             //********************************* EXERCICIOS *******************************************************
 
             //1.Jogo da Velha
@@ -79,7 +17,7 @@ namespace Aula_06
             //Forneça um método para exibir a matriz com status do jogo
             //Permita dois jogadores humanos
             //Forneça um método para jogar o jogo; todo movimento deve ocorrer em uma casa vazia; depois de
-            //cada movimento valide se uma vitória ou um empate.
+            //cada movimento valide se uma vitória ou um empate. (nao fiz ainda)
 
 
             //2.Gerenciando Salários
@@ -112,6 +50,7 @@ namespace Aula_06
             //sorteado.O usuário pode jogar até que acerte e, depois disso, mostrar quantas tentativas ele fez até
             //acertar.
             //Dica utilize a classe Random do C#, para gerar números aleatórios.
+            //(não fiz ainda)
             
             
             
@@ -127,7 +66,8 @@ namespace Aula_06
             //G.B.
             //P.J.de A. P.
             //Fazer um método que receba uma string do usuário e mostre o conteúdo desta string de forma invertida.
-            //Fazer um método que receba uma string e conte suas vogais e consoantes
+            //Fazer um método que receba uma string e conte suas vogais e consoantes 
+            //(não fiz ainda)
 
 
         }
