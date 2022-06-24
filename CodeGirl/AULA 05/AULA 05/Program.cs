@@ -6,38 +6,7 @@ namespace AULA_05
     {
       static void Main(string[] args)
         {
-            //int[] numeroLoteria = { 4, 8, 15, 16, 23, 42, 108 };
-
-            ////for (int i =0; i <= numeroLoteria.Length; i++ ){
-
-            //    //Console.WriteLine(numeroLoteria[i]);
-            ////}
-
-            //foreach( int numero in numeroLoteria)
-            //{
-            //    Console.WriteLine(numero);
-            //}
-
-            //Gato gato1 = new Gato("Barvo","De Rua","Dócil", "Amarelo-marrom",1 );
-
-
-            //    Gato gato2 = new Gato();
-            //    gato2.Nome = "Balu";
-            //    gato2.Raca = "Vira Lata";
-            //    gato2.CorPelo = "Branco";
-            //    gato2.Idade = 1;
-
-            //    Console.WriteLine("A Raça do Gato é: " + gato2.Raca);
-            //    gato2.Miar();
-            //    gato2.Miar();
-            //    gato2.Miar();
-            //gato2.Brincar();
-            //Console.WriteLine(gato2.Bagunca("sapatos"));
-            //gato2.Brincar("sapatos");
-            //Quando um parâmetro é passado para o método, ele é chamado de argumento.
-            //Então, do exemplo acima: brinquedo é um parâmetro e Bolinha é um argumento.
-
-
+           
             //++++++++++++++++++++++++++++++EXERCICIOS+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
