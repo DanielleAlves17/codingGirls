@@ -28,6 +28,7 @@
             //Senha incorreta!
             //Caso usuário e senha estejam corretos exiba:
             //Bem vindo ao sistema!
+            //(não fiz ainda)
 
 
 
@@ -37,6 +38,7 @@
             //e saldo privados.Além dos métodos de get para os atributos crie um método para alterar o nome,
             //realizar depósitos e saques. Também construa um construtor onde saldo é opcional, com valor default
             //zero, já os demais atributos são obrigatórios.
+            //(não fiz ainda)
 
 
 
@@ -46,6 +48,7 @@
             //Vamos modelar um cadastro de animais de uma pet-shop ? Crie uma classe que modele os animais e contenha
             //como atributos nome, espécie, cor, idade, observação e dados do dono.Os atributos relacionados ao dono
             //do animal deve ser privados para proteção de dados.Forrneça métodos para cadastro e leitura das informações.
+            //(não fiz ainda)
 
 
 
@@ -59,6 +62,7 @@
             //Controle o nível do volume, não permitindo que o usuário exceda o limite de volume;
             //Valide se a televisão está ligada antes de trocar de canal ou altear o volume.
             //Permita que o cliente possa visualiza todos os atributos da televisão.
+            //(não fiz ainda)
 
 
 
