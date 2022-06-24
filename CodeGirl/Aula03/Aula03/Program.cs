@@ -11,24 +11,6 @@ namespace Aula03
         static void Main(string[] args)
         {
 
-            //int num = 10;
-            //int num2 = 15;
-
-            //Console.WriteLine($"è igual a : {num==num2}");
-            //Console.WriteLine($"é diferente de : {num != num2}");
-            //Console.WriteLine($"é maior que : {num > num2}");
-            //Console.WriteLine($"é menor que : {num < num2}");
-
-            //Console.WriteLine($"{num > num2 && num == num2}");
-            //Console.WriteLine($"{num < num2 || num == num2}");
-            //Console.WriteLine($"{!(num != num2)}");
-
-            //Console.ReadLine();
-            // tem a missão de parar a execução do programa e fazer com que
-            // o computador espere a entrada de dados através do teclado do usuário
-
-
-
             // -------------------------    EXERCÍCIOS    ------------------------
 
 
