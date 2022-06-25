@@ -1,0 +1,15 @@
+C:\Users\ninas\source\repos\CodeGirl\Semana2\Aula 08\Aula08_03\bin\Debug\net6.0\Aula08_03.exe
+C:\Users\ninas\source\repos\CodeGirl\Semana2\Aula 08\Aula08_03\bin\Debug\net6.0\Aula08_03.deps.json
+C:\Users\ninas\source\repos\CodeGirl\Semana2\Aula 08\Aula08_03\bin\Debug\net6.0\Aula08_03.runtimeconfig.json
+C:\Users\ninas\source\repos\CodeGirl\Semana2\Aula 08\Aula08_03\bin\Debug\net6.0\Aula08_03.dll
+C:\Users\ninas\source\repos\CodeGirl\Semana2\Aula 08\Aula08_03\bin\Debug\net6.0\Aula08_03.pdb
+C:\Users\ninas\source\repos\CodeGirl\Semana2\Aula 08\Aula08_03\obj\Debug\net6.0\Aula08_03.csproj.AssemblyReference.cache
+C:\Users\ninas\source\repos\CodeGirl\Semana2\Aula 08\Aula08_03\obj\Debug\net6.0\Aula08_03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ninas\source\repos\CodeGirl\Semana2\Aula 08\Aula08_03\obj\Debug\net6.0\Aula08_03.AssemblyInfoInputs.cache
+C:\Users\ninas\source\repos\CodeGirl\Semana2\Aula 08\Aula08_03\obj\Debug\net6.0\Aula08_03.AssemblyInfo.cs
+C:\Users\ninas\source\repos\CodeGirl\Semana2\Aula 08\Aula08_03\obj\Debug\net6.0\Aula08_03.csproj.CoreCompileInputs.cache
+C:\Users\ninas\source\repos\CodeGirl\Semana2\Aula 08\Aula08_03\obj\Debug\net6.0\Aula08_03.dll
+C:\Users\ninas\source\repos\CodeGirl\Semana2\Aula 08\Aula08_03\obj\Debug\net6.0\refint\Aula08_03.dll
+C:\Users\ninas\source\repos\CodeGirl\Semana2\Aula 08\Aula08_03\obj\Debug\net6.0\Aula08_03.pdb
+C:\Users\ninas\source\repos\CodeGirl\Semana2\Aula 08\Aula08_03\obj\Debug\net6.0\Aula08_03.genruntimeconfig.cache
+C:\Users\ninas\source\repos\CodeGirl\Semana2\Aula 08\Aula08_03\obj\Debug\net6.0\ref\Aula08_03.dll
