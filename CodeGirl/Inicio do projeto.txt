@@ -1,39 +1,28 @@
---CREATE DATABASE agenda
---USE agenda
-/*IDENTITY: é um recurso do T-SQL que permite em campos númericos o incremento automático. 
-Você pode estipular o número inicial e a sequência para incremento desta forma: IDENTITY(1,2) ou seja, 
-a sequência se inicia em 1 (um) e incrementa 2 (dois) a cada inserção
-CONSTRAINT: indica que uma restrição (regra) será inserida nos casos que foram utilizados note que 
-auxiliou a criação da chave primaria da tabela endereço e da chave estrangeira do relacionamento entre endereço e contato.*/
-CREATE TABLE contato(
-	id INT PRIMARY KEY IDENTITY,
-	nome NVARCHAR(60) NOT NULL,
-	apelido NVARCHAR(20) NULL,
-	email_principal NVARCHAR(100) NULL,
-	sexo CHAR NOT NULL,
-	data_nascimento DATE NOT NULL
+CREATE TABLE aluno(
+
+id  int PRIMARY KEY,
+nome varchar(50) NOT NULL,
+dataNascimento date  NOT NULL,
+sexo char(1) NOT NULL,
+totalFaltas int
+turmaId (FK) int   ligada a Id de turma NOT NULL
+                    (tipo é o mesmo da tabela original)
+turma_Id INT FOREIGN KEY  REFERENCES turma(id) NOT NULL
 );
 
-CREATE TABLE uf(
-	id NVARCHAR(2) PRIMARY KEY,
-	nome NVARCHAR(20) NOT NULL,
+qnd se adiciona uma pk numa tabela já existente é necessário criar com constraint , numa tabela em que o PK já vem definido essa constraint é subentendida, nesse caso a cosntraint é criada com o que o sistema gerencia
+se não se coloca por escrito assim CONSTRAINT PK_Turma  (id), quando se escreve esse comando anterior pode se nomear a contraint
+
+
+CREATE TABLE turma (
+id int PRIMARY KEY, 
+nome varchar(20) NOT NULL,
+ativo bit,
+CONSTRAINT ,
 );
 
-CREATE TABLE endereco(
-	id INT IDENTITY NOT NULL,
-	id_contato INT NOT NULL,
-	logradouro NVARCHAR(100) NOT NULL,
-	numero INT NULL,
-	bairro NVARCHAR(50) NOT NULL,
-	id_uf NVARCHAR(2) NOT NULL,
-	complemento NVARCHAR(2),
-	CONSTRAINT PK_ENDERECO_ID PRIMARY KEY (id), 
-	CONSTRAINT FK_ENDERECO_CONTATO FOREIGN KEY (id_contato) REFERENCES contato(id)
-);
 
-CREATE TABLE email(
-	email NVARCHAR(100) UNIQUE,
-	email_secundario INT,
-	id_contato INT FOREIGN KEY REFERENCES contato(id),
-
-);
+Um aluno não pode ser incluído sem uma turma.
+Uma turma só pode ser excluída se não tiverem alunos cadastrados nela.
+Um aluno pode ser movido de turma.
+A consulta por turmas e alunos deve obedecer uma regra que é: só retornar alunos cuja condição é ativa(o).
